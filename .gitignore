@@ -19,3 +19,5 @@ transient
 network-security.data
 url
 projects
+tree-sitter
+tramp

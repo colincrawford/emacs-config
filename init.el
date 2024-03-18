@@ -31,8 +31,11 @@
     "filetree.el"
     "editing.el"
     "elisp-editing.el"
+    "lsp.el"
     "setup-clojure.el"
     "setup-js.el"
+    "setup-ts.el"
+    "setup-rust.el"
     "shell-integration.el"))
 
 (dolist (x addons)

@@ -1,9 +1,3 @@
-;; See:  https://clojure-lsp.io/
-;; also: https://emacs-lsp.github.io/lsp-mode/
-(setup (:package lsp-mode lsp-ui lsp-ivy lsp-treemacs)
-  (:hook lsp-enable-which-key-integration)
-  (:bind "M-<f7>" lsp-find-references))
-
 ;; clojure-mode is (naturally) the major mode for editing
 ;; Clojure and ClojureScript. subword-mode allows words
 ;; in camel case to be treated as separate words for
